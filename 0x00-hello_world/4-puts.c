@@ -1,3 +1,4 @@
+/*author kk */
 #include <stdio.h>
 /*prints text using puts*/
 int main(void)
