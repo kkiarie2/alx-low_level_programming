@@ -1,6 +1,6 @@
 /*author kk */
 #include <stdio.h>
-/*main prints text using puts*/
+/*function main- prints "Programming is like building a multilingual puzzle*/
 int main(void)
 /*no parameter*/
 {
