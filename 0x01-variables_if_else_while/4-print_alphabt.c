@@ -10,7 +10,7 @@
 int main(void)
 {
 char small;
-char q= 'q';
+char q = 'q';
 char e = 'e';
 for (small = 'a'; small <= 'z'; small++)
 if (small != e && small != q)
