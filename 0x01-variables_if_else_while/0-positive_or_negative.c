@@ -9,7 +9,7 @@
 /**
  *main - entry point
  *
- *Return -Always 0.
+ *Return -Always 0
  */
 int main(void)
   
@@ -22,16 +22,14 @@ int main(void)
   srand(time(0));
   
   n = rand() - RAND_MAX / 2;
- if(n == 0){
-  printf("%d is zero\n ", n);
-  }else if (n > 0)
+if(n == 0){
+printf("%lf is zero\n ", n);
+}else if (n > 0)
 {
-printf("%f is positive\n", n);
+printf("%lf is positive\n", n);
 }else{
-printf("%f is negative\n", n);
-}
- 
-  
-  return (0);
+printf("lf is negative\n", n);
+} 
+   return (0);
   
 }
