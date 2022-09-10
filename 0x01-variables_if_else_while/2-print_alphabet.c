@@ -8,11 +8,8 @@
 int main(void)
 {
 char small;
-char caps;
 for (small = 'a'; small <= 'z'; small++)
 putchar(small);
-for (caps = 'A'; caps <= 'Z'; caps++)
-putchar(caps);
 printf("\n");
 return (0);
 }
