@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
 
 /**
@@ -7,30 +9,31 @@
 * Return: Always 0
 */
 
-int main(void){
+int main(void)
 
-int i, j, k, l;
-
-for (i = 0; i <= 9; i++)
 {
 
-for (j = 0; j <= 9; j++)
+int i, j;
+
+for (i = 0; i <= 98; i++)
+
 {
-for (k = 0; k <= 9; k++)
+
+for (j = i + 1; j <= 99; j++)
+
 {
-for (l = k + 1; l <= 9; l++)
-{
+
+putchar((i / 10) + '0');
+
 putchar((i % 10) + '0');
-
-putchar((j % 10) + '0');
 
 putchar(' ');
 
-putchar((k % 10) + '0');
+putchar((j / 10) + '0');
 
-putchar((l % 10) + '0');
+putchar((j % 10) + '0');
 
-if (i == 9 && j == 8 && k == 9 && l == 9)
+if (i == 98 && j == 99 )
 
 continue;
 
@@ -38,9 +41,7 @@ putchar(',');
 
 putchar(' ');
 
-}
 
-}
 
 }
 
