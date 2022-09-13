@@ -1,4 +1,5 @@
 #include<main.h>
+#include "_putchar"
 /**
 * main - entry point
 * Return: Always 0
@@ -6,7 +7,7 @@
 
 int main (void){
 
-puts("_putchar\n");
+_putchar("_putchar\n");
 
 return (0);
 }
