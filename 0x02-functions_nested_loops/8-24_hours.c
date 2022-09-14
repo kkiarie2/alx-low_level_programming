@@ -29,7 +29,7 @@ _putchar((min / 10) + '0');
 
 _putchar((min % 10) + '0');
 
-if (hr == 23 && min == 59 )
+if (hr == 23 && min == 59)
 
 continue;
 
@@ -38,4 +38,5 @@ _putchar('\n');
 }
 
 }
+_putchar('\n');
 }
