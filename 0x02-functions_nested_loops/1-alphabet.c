@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* main - entry point
-* Return: Always 0
+*void print_alphabet- prints alphabet
+* Return: Always alphabet
 */
 
 void print_alphabet(void)
@@ -9,7 +9,7 @@ void print_alphabet(void)
 
 char xy = 'a';
 
-while(xy <= 'z')
+while (xy <= 'z')
 
 {
 
