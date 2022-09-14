@@ -18,6 +18,6 @@ _putchar(xy);
 xy++;
 
 }
-_putchar('\n')
+_putchar('\n');
 return (0);
 }
