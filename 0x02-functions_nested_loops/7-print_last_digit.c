@@ -14,8 +14,8 @@ int x,y;
 x = n % 10;
 if (x < 0)
 x = -x;
-y = '0' + x
-_putchar(yx);
+y = '0' + x;
+_putchar(y);
 
 return (x);
 }
