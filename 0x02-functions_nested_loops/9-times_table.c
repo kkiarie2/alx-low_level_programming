@@ -4,9 +4,7 @@
  * print_times_table - prints table 9
  * Return: always 0
  */
-
-void print_times_table(void)
-
+void times_table(void)
 {
 
 int i, j, prod;
