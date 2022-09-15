@@ -6,9 +6,6 @@
  * @a - integer
  * Return: sum
  */
-
-
-
 int add(int a, int b)
 
 {
