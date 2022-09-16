@@ -13,7 +13,7 @@ if (n <= 0)
 
 {
 
-putchar('\n');
+_putchar('\n');
 
 }
 
@@ -33,15 +33,15 @@ for (lines = 1; lines <= row - 1; lines++)
 
 {
 
-putchar(' ');
+_putchar(' ');
 
 }
 
 }
 
-putchar('\\');
+_putchar('\\');
 
-putchar('\n');
+_putchar('\n');
 
 }
 
