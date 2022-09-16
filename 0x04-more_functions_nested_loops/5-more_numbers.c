@@ -17,23 +17,15 @@ for (j = 0; j <= 9; j++)
 for (i = 0; i <= 14; i++)
 
 {
+tens = i / 10;
 
-if (i < 10)
+units = i % 10;
 
-_putchar(i + '0');
+if (i > 9)
 
-else
-{
+_putchar(tens + '0');
 
-_putchar((i / 10) + '0');
-
-_putchar((i % 10) + '0');
-
-
-
-}
-
-
+_putchar(units + '0');
 
 }
 
