@@ -1,18 +1,12 @@
 #include "main.h"
 
-
-
 /**
 * print_diagonal - Prints diagonals
 * @n: number of spaces and \
 * Return: void
 */
-
-
-
 void print_diagonal(int n)
 {
-
 int row, lines;
 
 if (n <= 0)

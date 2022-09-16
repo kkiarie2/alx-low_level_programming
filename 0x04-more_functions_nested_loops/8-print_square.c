@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * print_square -Prints square
- * description: print
- * @size: side of the square
- * Return: void
- */
+* print_square -Prints square
+* description: print
+* @size: side of the square
+* Return: void
+*/
 
 void print_square(int size)
-
 {
 
 int row, col;
