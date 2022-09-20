@@ -11,7 +11,8 @@ void _puts(char *str)
 
 {
 
-char i, curr;
+int i;
+char curr;
 
 for (i = 0; str[i] != '\0'; i++)
 {
