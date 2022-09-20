@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
-* rev_string - rev a string
+* print_rev - reverses a string
 * @s: string
 *
 */
 
-
-
-void rev_string(char *s)
+void print_rev(char *s)
 
 {
 
