@@ -25,5 +25,4 @@ _putchar(curr);
 
 _putchar('\n');
 
-return (0);
 }
