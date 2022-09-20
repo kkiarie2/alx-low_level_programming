@@ -3,12 +3,10 @@
 /**
 * rev_string - reverses a string
 * @s: string
-*
 */
 
-
-
 void rev_string(char *s)
+
 {
 
 int i;
@@ -30,8 +28,6 @@ i++;
 i = i - 1;
 
 j = 0;
-
-
 
 while (j < i)
 
