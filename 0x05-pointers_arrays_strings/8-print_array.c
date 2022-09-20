@@ -15,18 +15,17 @@ int i;
 
 for (i = 0; i <= n - 1; i++)
 {
-if (a[i] < 0)
+if
+(a[i] < 0)
 a[i] = -a[i];
+if
+((i == (n - 1)))
 printf("%d", a[i]);
-if ((i == (n - 1)))
-{
-continue;
-}
 else
 {
-_putchar(',');
-_putchar(' ');
-}
+printf("%d, ", a[i]);
 }
 _putchar('\n');
+}
+
 }
