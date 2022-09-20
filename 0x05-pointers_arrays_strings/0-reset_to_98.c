@@ -34,14 +34,6 @@ n = 102;
 
 p = &n;
 
-printf("Value of 'n' before the call: %d\n", n);
-
 reset_to_98(p);
-
-printf("Value of 'n' after the call: %d\n", n);
-
 return (0);
-
 }
-
-
