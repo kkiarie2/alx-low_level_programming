@@ -2,49 +2,31 @@
 
 /**
 * print_rev - reverses a string
-* @s: string
 *
+* @s: string
 */
 
 void print_rev(char *s)
 
 {
 
-int i;
+int len;
 
-int j;
-
-int tmp;
-
-
-
-i = 0;
-
-while (s[i] != '\0')
+while (*(s + len) != '\0')
 
 {
 
-i++;
+len++;
 
 }
 
-i = i - 1;
-
-j = 0;
-
-while (j < i)
+while (len--)
 
 {
 
-tmp = s[i];
-
-s[i] = s[j];
-
-s[j] = tmp;
-
-j++;
-
-i--;
+_putchar(*(s + (len)));
 
 }
+
+_putchar('\n');
 }
