@@ -3,7 +3,7 @@
 /**
 *_memset - fills memory with a constant byte.
 * @s: source string
-* @b: the constant 
+* @b: the constant
 * @n: length
 * Return: new string.
 */
