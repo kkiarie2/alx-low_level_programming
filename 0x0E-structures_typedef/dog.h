@@ -3,19 +3,20 @@
 #define DOG_H
 
 /**
- * struct dog - pet info
- * @name:  name
- * @age:  age
- * @owner: owner
- */
+* struct dog - pet info
+* @name: pet name
+* @age: pet age
+* @owner:  owner
+*/
+
 struct dog
 {
 
-	char *name;
+char *name;
 
-	float age;
+float age;
 
-	char *owner;
+char *owner;
 
 };
 
@@ -24,9 +25,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
 /**
- * dog - rename struct with typedef
- */
-
+* dog - rename struct with typedef
+*/
 typedef struct dog dog_t;
 
 dog_t *new_dog(char *name, float age, char *owner);
